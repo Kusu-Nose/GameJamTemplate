@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2898008291851552648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7499920885412893880}
+  - component: {fileID: 930356670798103268}
+  - component: {fileID: 4400545061816997669}
+  - component: {fileID: 7876746131211009200}
+  m_Layer: 0
+  m_Name: SampleGameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7499920885412893880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2898008291851552648}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &930356670798103268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2898008291851552648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1dfe7822fa3e643bb941c4dd8cdc14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4400545061816997669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2898008291851552648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c35ae9e11e93be4419e7d32e10fdd172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isEnabled: 0
+  _countDirection: 1
+  _startTime: 60
+  _endTime: 0
+  _onTimerStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  _onTimerFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  _onTimerPaused:
+    m_PersistentCalls:
+      m_Calls: []
+  _onTimerResumed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &7876746131211009200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2898008291851552648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c87f20cf653a14ba8feeeb1a63cecd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _defaultScore: 0
+  _isTargetScoreEnabled: 0
+  _targetScore: 10
+  _onScoreAdded:
+    m_PersistentCalls:
+      m_Calls: []
+  _onScoreDeducted:
+    m_PersistentCalls:
+      m_Calls: []
+  _onScoreSetted:
+    m_PersistentCalls:
+      m_Calls: []
+  _onScoreTargetReached:
+    m_PersistentCalls:
+      m_Calls: []
